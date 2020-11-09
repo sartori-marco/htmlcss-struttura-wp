@@ -5,11 +5,11 @@
 }
 
 .container{
-  padding: 10px
+  padding: 10px;
 }
 
 .float-left{
-  float:left;
+  float: left;
 }
 
 .clearfix::after{
@@ -38,8 +38,34 @@ main{
   background-color: blue;
 }
 
-.col-right{
+.col-right1{
   width: 20%;
   height: 40%;
   background-color: lightblue;
 }
+
+.col-right2{
+  width: 20%;
+  height: 40%;
+  background-color: black;
+}
+
+.testo-centrale{
+  width: calc(50% - 10px);
+  height: 100%;
+  background-color: violet;
+  margin: 0 5px;
+}
+
+/* fine main */
+/* inizio footer */
+footer{
+  height: 50px;
+  background-color: black;
+  margin: 0 10px;
+}
+
+
+
+
+/* end */
