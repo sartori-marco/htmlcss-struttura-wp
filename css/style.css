@@ -8,6 +8,16 @@
   padding: 10px
 }
 
+.float-left{
+  float:left;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header{
   height: 200px;
   background-color: yellow;
@@ -20,4 +30,16 @@ main{
   height: 600px;
   background-color: red;
   margin: 10px ;
+}
+
+.col-left{
+  width: 20%;
+  height: 50%;
+  background-color: blue;
+}
+
+.col-right{
+  width: 20%;
+  height: 40%;
+  background-color: lightblue;
 }
