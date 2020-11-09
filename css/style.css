@@ -39,27 +39,22 @@ main{
   margin-right: 30px;
 }
 
-.col-right1{
+.colonna-destra{
   width: 20%;
-  height: 30%;
-  background-color: lightblue;
+  height: 90%;
   margin-left: 30px;
-  margin-bottom: 10px;
+  background-color: purple;
+  z-index: 0;
 }
 
-.col-right2{
-  width: 20%;
+.testo{
+  width: 50%;
   height: 30%;
-  background-color: black;
   margin-left: 30px;
-  margin-bottom: 10px;
-}
-
-/* .col-right3{
-  width: 20%;
-  height: 30%;
+  margin-bottom: 5px;
   background-color: green;
-} */
+  z-index: 1;
+}
 
 .testo-centrale{
   width: calc(50% - 10px);
